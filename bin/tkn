@@ -313,7 +313,7 @@ loop do
     render(slide).each_char do |c|
       print c
       # Code slides take longer to render, hence a shorter sleep
-      sleep 0.0003
+      #sleep 0.0003
     end
   else
     render(slide).each_char do |c|
